@@ -1,1 +1,1 @@
-__version__ = (2, 0, "4-ipso.4")
+__version__ = (2, 0, "5-ipso")
