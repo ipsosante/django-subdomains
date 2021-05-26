@@ -5,8 +5,7 @@ except ImportError:
 
 from subdomains.tests.views import view
 
-
 urlpatterns = patterns('',
-    url(regex=r'^$', view=view, name='home'),
-    url(regex=r'^example/$', view=view, name='example'),
-)
+                       url(regex=r'^$', view=view, name='home'),
+                       url(regex=r'^example/$', view=view, name='example'),
+                       )
