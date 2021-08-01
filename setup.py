@@ -16,7 +16,7 @@ except ImportError:
     version = get_version()
 
 
-install_requires = ['django']
+install_requires = ['django>=3.0']
 tests_require = install_requires + ['mock']
 
 setup(name='django-subdomains',
